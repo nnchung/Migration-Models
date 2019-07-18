@@ -1,0 +1,5 @@
+This work models the effects of three sociocultural features, namely sex-biased migration, social dominance and serial founder effects on genetic diversity. Two codes are provided in this repository. "Island_Dominace_Model.py" is used to study sex-biased migration and social dominance while "Founder_Model.py" is used to study serial founder effect.   
+
+In the island model, k populations (each with a  fixed size of N) are simulated for T generations. In each generation, random mating is implemented following the standard haploid Wright-Fisher model. Migration between the populations happens at a rate of m. Paternally and maternally inherited lineages are to be studied separately by running the code with two different migration rate. The effect of dominance can be studied by adjusting the parameters: p, sigma and delta. 
+ 
+Migration and dominance are implemented in a similar way in the founder model. Nonetheless, sizes of the populations are not fixed here. It undergoes a logistics growth and the founder effect.  
